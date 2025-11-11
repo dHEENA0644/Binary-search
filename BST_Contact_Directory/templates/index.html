@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Binary Search Tree Contact Directory</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📖 BST Contact Directory</h1>
+    <div class="form">
+      <input id="name" placeholder="Name" />
+      <input id="phone" placeholder="Phone" />
+      <input id="email" placeholder="Email" />
+      <button onclick="addContact()">Add Contact</button>
+      <button onclick="searchContact()">Search</button>
+      <button onclick="deleteContact()">Delete</button>
+      <button onclick="loadContacts()">Show All</button>
+    </div>
+
+    <h2>All Contacts</h2>
+    <table id="contactTable">
+      <thead>
+        <tr><th>Name</th><th>Phone</th><th>Email</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
